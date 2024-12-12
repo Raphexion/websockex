@@ -500,7 +500,7 @@ defmodule WebSockex do
     module_misc = module_status(opt, state.module, pdict, state.module_state)
 
     [
-      {:header, 'Status for WebSockex process #{inspect(self())}'},
+      {:header, "Status for WebSockex process #{inspect(self())}"},
       {:data,
        [
          {"Status", sys_state},
